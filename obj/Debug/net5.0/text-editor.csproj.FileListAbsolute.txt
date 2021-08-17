@@ -1,0 +1,16 @@
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\bin\Debug\net5.0\text-editor.exe
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\bin\Debug\net5.0\text-editor.deps.json
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\bin\Debug\net5.0\text-editor.runtimeconfig.json
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\bin\Debug\net5.0\text-editor.runtimeconfig.dev.json
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\bin\Debug\net5.0\text-editor.dll
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\bin\Debug\net5.0\ref\text-editor.dll
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\bin\Debug\net5.0\text-editor.pdb
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\obj\Debug\net5.0\text-editor.csproj.AssemblyReference.cache
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\obj\Debug\net5.0\text-editor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\obj\Debug\net5.0\text-editor.AssemblyInfoInputs.cache
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\obj\Debug\net5.0\text-editor.AssemblyInfo.cs
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\obj\Debug\net5.0\text-editor.csproj.CoreCompileInputs.cache
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\obj\Debug\net5.0\text-editor.dll
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\obj\Debug\net5.0\ref\text-editor.dll
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\obj\Debug\net5.0\text-editor.pdb
+C:\Users\Perfil Trabalho\Desktop\C#\text-editor\obj\Debug\net5.0\text-editor.genruntimeconfig.cache
