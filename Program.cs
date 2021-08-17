@@ -24,20 +24,33 @@ namespace text_editor
             {
                 case 0: System.Environment.Exit(0); break;
                 case 1: Open(); break;
-                case 2: Edit(); break;
+                case 2: Create(); break;
                 default: Menu(); break;
             }
+
+            Console.WriteLine();
+            Console.ReadKey();
+            Menu();
         }
 
         static void Open()
         {
+            Console.Clear();
+            Console.WriteLine("What is the file path?");
 
+            string path = Console.ReadLine();
+
+            using (var file = new StreamReader(path))
+            {
+                string text = file.ReadToEnd();
+                Console.WriteLine(text);
+            }
         }
 
-        static void Edit()
+        static void Create()
         {
             Console.Clear();
-            Console.WriteLine("Digite your text bellow (ESC for exit)");
+            Console.WriteLine("Enter your text below (ESC to leave)");
             Console.WriteLine("------------------");
 
             string text = "";
@@ -49,16 +62,14 @@ namespace text_editor
             while (Console.ReadKey().Key != ConsoleKey.Escape);
 
             Save(text);
-            Console.ReadLine();
-            Menu();
         }
 
         static void Save(string text)
         {
             Console.Clear();
-            Console.WriteLine("What path to save file?");
+            Console.WriteLine("What is the path to save the file?");
             var path = Console.ReadLine();
-            //abre e fecha o arquivo ou conexao de bd
+            //abre e fecha o arquivo ou conexao de bd etc
             using (var file = new StreamWriter(path))
             {
                 file.Write(text);
