@@ -48,17 +48,21 @@ namespace text_editor
             }
             while (Console.ReadKey().Key != ConsoleKey.Escape);
 
-            Console.Write(text);
+            Save(text);
+            Console.ReadLine();
+            Menu();
         }
 
-        static void Save(string text){
+        static void Save(string text)
+        {
             Console.Clear();
             Console.WriteLine("What path to save file?");
             var path = Console.ReadLine();
             //abre e fecha o arquivo ou conexao de bd
-            using(var file = new StreamWriter(path)){
+            using (var file = new StreamWriter(path))
+            {
                 file.Write(text);
-                
+                Console.WriteLine($"Arquivo {path} salvo com sucesso!");
             }
         }
     }
